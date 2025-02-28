@@ -3,7 +3,6 @@ import { FormEvent, useState } from "react";
 
 const InputForm = ({ addClocks, itemsData }) => {
   const [form, setForm] = useState({ title: "", zone: "" });
-  const [items, setItems] = useState([]);
 
   const handleChange = ({ target }: FormEvent<HTMLElement>) => {
     const name = target.name;
