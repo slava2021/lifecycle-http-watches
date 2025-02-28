@@ -13,7 +13,7 @@ function App() {
 
     newItems.push(item);
 
-    console.log("newItems: ", newItems);
+    // console.log("newItems: ", newItems);
 
     setItems(newItems);
   };

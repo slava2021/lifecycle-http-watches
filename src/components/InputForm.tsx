@@ -13,7 +13,7 @@ const InputForm = ({ addClocks, itemsData }) => {
   const handleSubmit = (e: FormEvent<HTMLElement>) => {
     e.preventDefault();
 
-    console.log("handleSubmit: ", form);
+    // console.log("handleSubmit: ", form);
 
     const formData = {
       id: itemsData.length,
@@ -21,7 +21,7 @@ const InputForm = ({ addClocks, itemsData }) => {
       zone: Number(form.zone),
     };
 
-    console.log("formdata ", formData);
+    // console.log("formdata ", formData);
 
     addClocks(formData);
 
